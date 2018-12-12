@@ -1,3 +1,9 @@
+//Program       : Nano Degree
+//Course        : Android Developer
+//Project Title : Sandwich Club
+//Student Name  : Abdul Razak Husin
+//Email         : husinabdulrazak@gmail.com
+
 package com.udacity.sandwichclub;
 
 import android.content.Intent;
@@ -16,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_names);
+
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, sandwiches);
 
@@ -23,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.sandwiches_listview);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 launchDetailActivity(position);

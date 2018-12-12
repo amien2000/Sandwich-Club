@@ -1,3 +1,9 @@
+//Program       : Nano Degree
+//Course        : Android Developer
+//Project Title : Sandwich Club
+//Student Name  : Abdul Razak Husin
+//Email         : husinabdulrazak@gmail.com
+
 package com.udacity.sandwichclub.model;
 
 import java.util.List;
