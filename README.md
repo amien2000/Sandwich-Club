@@ -1,4 +1,4 @@
-# Sandwich Club Project
+# Sandwich Club App
 
 This is my first project for Nano Degree program at Udacity.
 
